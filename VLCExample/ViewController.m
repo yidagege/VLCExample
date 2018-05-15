@@ -25,8 +25,13 @@
     [self.view addSubview:videoView];
     VLCMediaPlayer *player = [[VLCMediaPlayer alloc] initWithOptions:nil];
     self.player = player;
-    self.player.drawable = videoView;//http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8
-    self.player.media = [VLCMedia mediaWithPath:[[NSBundle mainBundle] pathForResource:@"test" ofType:@"mov"]];//[VLCMedia mediaWithURL:[NSURL URLWithString:@"http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8"]];
+    self.player.drawable = videoView;
+    //http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8
+    //https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4
+//    self.player.media = [VLCMedia mediaWithPath:[[NSBundle mainBundle] pathForResource:@"test" ofType:@"mov"]];
+//    self.player.media = [VLCMedia mediaWithURL:[NSURL URLWithString:@"https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"]];
+    self.player.media = [VLCMedia mediaWithURL:[NSURL URLWithString:@"http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8"]];
+
     [self.player play];
     
 }
