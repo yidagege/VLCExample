@@ -1,9 +1,9 @@
-*.xcuserdata
-*.xcuserstate
-*.xcscheme
+.xcuserdata
+.xcuserstate
+.xcscheme
 .DS_Store
 **/.idea
 **/iOSInjectionProject
 **/Pods
 **/_Pods.xcodeproj
-**/xcuserdata/
+/xcuserdata/

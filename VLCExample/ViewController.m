@@ -29,8 +29,8 @@
     //http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8
     //https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4
 //    self.player.media = [VLCMedia mediaWithPath:[[NSBundle mainBundle] pathForResource:@"test" ofType:@"mov"]];
-//    self.player.media = [VLCMedia mediaWithURL:[NSURL URLWithString:@"https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"]];
-    self.player.media = [VLCMedia mediaWithURL:[NSURL URLWithString:@"http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8"]];
+    self.player.media = [VLCMedia mediaWithURL:[NSURL URLWithString:@"https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"]];
+//    self.player.media = [VLCMedia mediaWithURL:[NSURL URLWithString:@"http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8"]];
     
 //    player.audio.volume;
 //    player.audio.muted = YES;
